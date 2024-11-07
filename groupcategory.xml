@@ -1,0 +1,82 @@
+<root>
+   <name>GroupCategory</name>
+   <key>groupcategory</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/Probesys/glpi-plugins-groupcategory/github/pics/logo.png</logo>
+   <description>
+      <short>
+	    <fr><![CDATA[Permet de limiter le nombre de catégories disponibles pour les demandeurs lors de la création de tickets.]]></fr>
+	    <en><![CDATA[Customizes the list of accessible ticket categories for ticket requesters.]]></en>
+        <cs><![CDATA[Skupina kategorie je zásuvný modul umožňující omezit při vytváření požadavku uživateli počet dostupných kategorií.]]></cs>
+      </short>
+      <long>
+         <fr><![CDATA[Fonctionnalités:
+        <br />- Configurer la liste des catégories autorisées/interdites pour chaque groupe : par exemple, le groupe XYZ peut avoir accès à la catégorie ABC, mais pas le groupe UVW.
+        <br />- changer la liste des catégories visibles sur le formulaire de création de ticket:  par exemple, si le demandeur d'un ticket est dans le groupe XYZ, alors la catégorie ABC sera disponible. Si le demande est dans le groupe UVW, la catégorie ABC ne sera pas disponible.
+        <br />- si la liste des catégories autorisées d'un groupe est vide, alors les demandeurs de ce groupe auront accès à presque toutes les catégories (en fonction des entitées et des catégories récursives).
+         ]]></fr>
+         <en><![CDATA[Features:
+        <br />- Configure list of allowed/disallowed categories for every group. Go to Administration -> Groups -> select a group -> scroll down : for example, group XYZ can have category ABC, but group UVW won't.
+        <br />- Change the list of available categories on the ticket creation form : for example, If the requester of a ticket is in group XYZ, the categories will include ABC. If the requester is in group UVW, category ABC won't be available.
+        <br />- If a group's allowed categories list is empty, requesters in this group will have access to nearly all categories (depending on entities and if the categories are recursive)
+         ]]></en>
+         <cs><![CDATA[<br />Funkce:
+        <br />-- Nastavení seznamu znepřístupněných/zpřístupněných kategorií pro každou ze skupin
+        <br />- změna zpřístupněných kategori podle nastavení a skupin žadatele při vytváření požadavku
+         ]]></cs>
+      </long>
+   </description>
+   <homepage>https://github.com/Probesys/glpi-plugins-groupcategory</homepage>
+   <download>https://github.com/Probesys/glpi-plugins-groupcategory/releases</download>
+   <issues>https://github.com/Probesys/glpi-plugins-groupcaterogy/issues</issues>
+   <readme>https://github.com/Probesys/glpi-plugins-groupcaterogy/README.md</readme>
+   <authors>
+      <author>PROBESYS</author>
+      <author>Pierre de Vésian</author>
+      <author>Philippe GODOT</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.4.0</num>
+         <compatibility>~9.5</compatibility>
+         <download_url>https://github.com/Probesys/glpi-plugins-groupcategory/releases/download/v1.4.0/groupcategory-1.4.0.tbz</download_url>
+      </version>
+      <version>
+         <num>1.5.0</num>
+         <compatibility>~10.0</compatibility>
+         <download_url>https://github.com/Probesys/glpi-plugins-groupcategory/releases/download/v1.5.0/groupcategory.tbz</download_url>
+      </version>
+      <version>
+         <num>1.5.1</num>
+         <compatibility>~10.0</compatibility>
+         <download_url>https://github.com/Probesys/glpi-plugins-groupcategory/releases/download/v1.5.1/groupcategory-1.5.1.tbz</download_url>
+      </version>
+      <version>
+         <num>1.5.2</num>
+         <compatibility>~10.0</compatibility>
+         <download_url>https://github.com/Probesys/glpi-plugins-groupcategory/releases/download/v1.5.2/groupcategory-1.5.2.tbz</download_url>
+      </version>
+   </versions>
+   <langs>
+      <lang>en_GB</lang>
+      <lang>fr_FR</lang>
+   </langs>
+   <license>AGPL v3+</license>
+   <tags>
+      <fr>
+         <tag>Tickets</tag>
+         <tag>Groupes</tag>
+         <tag>Catégories</tag>
+      </fr>
+      <en>
+         <tag>Tickets</tag>
+         <tag>Groups</tag>
+         <tag>Categories</tag>
+      </en>
+      <cs>
+         <tag>Skupiny</tag>
+         <tag>Požadavky</tag>
+         <tag>kategorie</tag>
+      </cs>
+   </tags>
+</root>

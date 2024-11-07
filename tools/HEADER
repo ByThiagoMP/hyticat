@@ -1,17 +1,17 @@
  ---------------------------------------------------------------------
- hyticat is a plugin to customizes the list of accessible 
+ groupcategory is a plugin to customizes the list of accessible 
  ticket categories for ticket requesters.
  ---------------------------------------------------------------------
  LICENSE
  
- This file is part of hyticat.
+ This file is part of groupcategory.
  
- hyticat is free software; you can redistribute it and/or modify
+ groupcategory is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 3 of the License, or
  (at your option) any later version.
  
- hyticat is distributed in the hope that it will be useful,
+ groupcategory is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
@@ -21,4 +21,6 @@
  ---------------------------------------------------------------------
  @copyright Copyright © 2022-2023 probeSys'
  @license   http://www.gnu.org/licenses/agpl.txt AGPLv3+
+ @link      https://github.com/Probesys/glpi-plugins-groupcategory
+ @link      https://plugins.glpi-project.org/#/plugin/groupcategory
  ---------------------------------------------------------------------
